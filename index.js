@@ -21,7 +21,7 @@ const server = http.createServer(async (req, res) => {
       JSON.stringify({
         message: "itmo310267",
         "x-result": req.headers["x-test"],
-        "x-body": data,
+        "x-body": data
       })
     );
   }
